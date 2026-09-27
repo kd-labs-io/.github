@@ -1,0 +1,85 @@
+# ==============================================================================
+# OS Generated Files (.gitignore for macOS, Windows, Linux)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# macOS
+# ------------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon\r\r
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP / SMB shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.fseventsd
+
+# iCloud / Document revisions
+*.icloud
+
+# ------------------------------------------------------------------------------
+# Windows
+# ------------------------------------------------------------------------------
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on shared network drives
+$RECYCLE.BIN/
+
+# Windows shortcut files
+*.lnk
+
+# Windows temporary files
+*.tmp
+
+# ------------------------------------------------------------------------------
+# Linux
+# ------------------------------------------------------------------------------
+*~
+
+# Temporary files created by text editors / CLI tools
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or external disk
+.Trash-*
+
+# NFS file locks
+.nfs*
+
+# ------------------------------------------------------------------------------
+# Editors & IDEs (Common Cross-Platform)
+# ------------------------------------------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
