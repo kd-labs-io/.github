@@ -72,3 +72,8 @@ KD Labs began as an indie software studio. Today it operates as an AI-native lab
 
 Founded by **Bui Khuong Duy** • Crafted with calm focus and care by **KD Labs** • Keep Development
 Visit our home at [kd.io.vn](https://kd.io.vn/)
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/buikhuongduy/" title="Bui Khuong Duy on LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="Bui Khuong Duy on LinkedIn"></a>
+  <a href="https://x.com/khuongduy1897" title="Bui Khuong Duy on X"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="Bui Khuong Duy on X"></a>
+</p>
