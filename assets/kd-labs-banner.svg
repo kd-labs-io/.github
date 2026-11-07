@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" role="img" aria-labelledby="title desc">
+  <title id="title">KD Labs — AI-native lab founded by Bui Khuong Duy</title>
+  <desc id="desc">Building AI-native tools for peak productivity. We never stop learning, researching, experimenting, building, sharing and listening.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#161c30"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#f97316"/>
+      <stop offset="55%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-720 0; 720 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#334155" opacity="0.5"/>
+    </pattern>
+
+    <!-- line-by-line typing reveal -->
+    <clipPath id="type1">
+      <rect x="0" y="90" height="50" width="0">
+        <animate attributeName="width" values="0;680;680;0" keyTimes="0;0.18;0.93;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type2">
+      <rect x="0" y="142" height="50" width="0">
+        <animate attributeName="width" values="0;0;680;680;0" keyTimes="0;0.18;0.34;0.93;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .label { font-size: 18px; letter-spacing: 3px; fill: #94a3b8; }
+    .head { font-size: 40px; font-weight: 700; fill: #f8fafc; }
+    .head-accent { fill: url(#accent); }
+    .cursor { fill: #f97316; animation: blink 1s steps(1) infinite; }
+    .prefix { font-size: 22px; fill: #64748b; }
+    .word { font-size: 22px; font-weight: 700; fill: #fb923c; opacity: 0; animation: swap 6s infinite; }
+    .pip { fill: #334155; animation: pip 6s infinite; }
+    .d1 { animation-delay: 0s; } .d2 { animation-delay: 1s; } .d3 { animation-delay: 2s; }
+    .d4 { animation-delay: 3s; } .d5 { animation-delay: 4s; } .d6 { animation-delay: 5s; }
+    .foot { font-size: 16px; fill: #64748b; }
+    .foot-strong { fill: #e2e8f0; font-weight: 700; }
+    @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @keyframes swap {
+      0% { opacity: 0; transform: translateY(6px); }
+      3%, 14% { opacity: 1; transform: translateY(0); }
+      17%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes pip {
+      0%, 1% { fill: #334155; }
+      3%, 15% { fill: #f97316; }
+      17%, 100% { fill: #334155; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .pip { animation: none; }
+      .word { animation: none; }
+      .d1 { opacity: 1; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="718" height="328" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="328" rx="20" fill="url(#dots)"/>
+  <rect x="1" y="1" width="718" height="328" rx="20" fill="url(#glow)"/>
+  <rect x="1" y="1" width="718" height="328" rx="20" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <rect x="1" y="1" width="718" height="328" rx="20" fill="none" stroke="url(#border)" stroke-width="2"/>
+
+  <!-- label with live pulse -->
+  <circle cx="46" cy="52" r="6" fill="#f97316">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="46" cy="52" r="6" fill="none" stroke="#f97316" stroke-width="2">
+    <animate attributeName="r" values="6;15" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="66" y="58" class="mono label">KD LABS&#160;//&#160;AI-NATIVE LAB</text>
+
+  <!-- headline, typed line by line -->
+  <g clip-path="url(#type1)">
+    <text x="40" y="128" class="mono head">Building AI-native tools</text>
+  </g>
+  <g clip-path="url(#type2)">
+    <text x="40" y="180" class="mono head">for peak <tspan class="head-accent">productivity</tspan><tspan class="cursor">▍</tspan></text>
+  </g>
+
+  <!-- rotating loop word -->
+  <text x="40" y="240" class="mono prefix">we never stop</text>
+  <g transform="translate(228 240)">
+    <text class="mono word d1">learning</text>
+    <text class="mono word d2">researching</text>
+    <text class="mono word d3">experimenting</text>
+    <text class="mono word d4">building</text>
+    <text class="mono word d5">sharing</text>
+    <text class="mono word d6">listening</text>
+  </g>
+
+  <!-- loop progress pips -->
+  <g>
+    <rect class="pip d1" x="40"  y="258" width="34" height="5" rx="2.5"/>
+    <rect class="pip d2" x="80"  y="258" width="34" height="5" rx="2.5"/>
+    <rect class="pip d3" x="120" y="258" width="34" height="5" rx="2.5"/>
+    <rect class="pip d4" x="160" y="258" width="34" height="5" rx="2.5"/>
+    <rect class="pip d5" x="200" y="258" width="34" height="5" rx="2.5"/>
+    <rect class="pip d6" x="240" y="258" width="34" height="5" rx="2.5"/>
+  </g>
+
+  <!-- footer -->
+  <text x="40" y="302" class="mono foot">founded by <tspan class="foot-strong">Bui Khuong Duy</tspan>&#160;·&#160;kd.io.vn</text>
+</svg>
