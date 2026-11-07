@@ -12,10 +12,6 @@
 [![Profile README](https://img.shields.io/badge/GitHub_Profile-profile%2FREADME.md-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kd-labs-io/.github/blob/main/profile/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-f97316?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
 
-<p align="center">
-  <img src="./assets/kd-labs-banner.svg" alt="KD Labs — AI-native lab founded by Bui Khuong Duy. Building AI-native tools for peak productivity." width="720">
-</p>
-
 ---
 
 ## 📌 Organization Profile

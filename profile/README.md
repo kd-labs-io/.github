@@ -1,5 +1,3 @@
-<div align="center">
-
 ```
   _  ______    _           _         
  | |/ /  _ \  | |    __ _ | |__  ___ 
@@ -8,170 +6,76 @@
  |_|\_\____/  |_____\__,_||_.__/|___/
 ```
 
-# KD Labs
+# KD Labs • Organization Configuration Repository
 
-### **Simplicity in Design. Security in Every Touch.**
-
-*An indie mobile engineering studio crafting refined, 100% offline, privacy-first tools powered by hardware-grade cryptography and Zen minimalism.*
-
-[![Website](https://img.shields.io/badge/Official_Website-kd.io.vn-ea580c?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kd.io.vn/)
-[![Google Play](https://img.shields.io/badge/Google_Play-Developer_Profile-0f172a?style=for-the-badge&logo=googleplay&logoColor=ea580c)](https://play.google.com/store/apps/dev?id=7744040993303027729)
-[![Architecture](https://img.shields.io/badge/Architecture-100%25_Zero--Network-10b981?style=for-the-badge&logo=shield&logoColor=white)](https://kd.io.vn/)
+[![Official Website](https://img.shields.io/badge/Official_Website-kd.io.vn-ea580c?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kd.io.vn/)
+[![Profile README](https://img.shields.io/badge/GitHub_Profile-profile%2FREADME.md-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kd-labs-io/.github/blob/main/profile/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-f97316?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
 
-<br/>
-
-[Explore Website](https://kd.io.vn/) • [Flagship App](#-flagship-project-simple-otp) • [Our Philosophy](#-the-four-zen-pillars) • [Tech & Security](#-security--cryptographic-standards) • [Contact](#-connect-with-us)
+<p align="center">
+  <img src="./assets/kd-labs-banner.svg" alt="KD Labs — AI-native lab founded by Bui Khuong Duy. Building AI-native tools for peak productivity." width="720">
+</p>
 
 ---
 
-</div>
+## 📌 Organization Profile
 
-<br/>
+Looking for the complete KD Labs overview, philosophy, tech stack, and project roadmap?
+
+👉 [**Read the Full Organization Profile README (profile/README.md)**](https://github.com/kd-labs-io/.github/blob/main/profile/README.md)
+
+---
 
 ## 🌌 About KD Labs
 
-At **KD Labs** (*Keep Development*), we believe that enterprise-grade cryptographic security should neither feel intimidating nor intrusive. It should exist quietly, elegantly, and provide absolute peace of mind.
+**KD Labs** (*Keep Development*) is an **AI-native lab founded by Bui Khuong Duy**, building a diverse range of software that helps people develop faster and work more productively.
 
-Modern apps are plagued by bloatware, aggressive ad trackers, surveillance telemetry, and recurring subscriptions for essential security features. We build the exact opposite:
-- **Zero-Network Architecture**: Operating strictly without internet permissions.
-- **Hardware-Backed Encryption**: Safeguarded by on-device secure enclaves.
-- **Zen Aesthetics**: Calm, intentional interfaces with delightful interactive companions.
-- **Tiny Footprint**: Battery-efficient, responsive, and under 10MB.
+AI is built into how we design, build, and ship — across every product we make.
 
-Visit our official portal at **[kd.io.vn](https://kd.io.vn/)** *(available in both English and Vietnamese)*.
+### Key Highlights:
 
----
+- **AI-Native by Design**: AI is part of the architecture and the workflow from day one, not a feature added later.
+- **Diverse Product Lineup**: A growing portfolio of tools across different domains, all aimed at optimizing development and productivity.
+- **Privacy & Security First**: Strong security practices and respect for user data in everything we build.
+- **Official Portal**: [**kd.io.vn**](https://kd.io.vn/) (Vietnamese & English).
 
-## 🏛️ The Four Zen Pillars
+### 🔁 Our Spirit: Learn • Research • Experiment • Share • Listen
 
-```
-┌──────────────────────┐  ┌──────────────────────┐
-│  01. 100% OFFLINE    │  │  02. HARDWARE VAULT  │
-│  Zero network calls  │  │  AES-256-GCM enclave │
-│  Zero cloud leaks    │  │  PBKDF2 key derivation│
-└──────────────────────┘  └──────────────────────┘
-┌──────────────────────┐  ┌──────────────────────┐
-│  03. ZERO NOISE      │  │  04. TRANSPARENCY    │
-│  No invasive ads     │  │  Open-source (MIT)   │
-│  No telemetry traps  │  │  Community auditable │
-└──────────────────────┘  └──────────────────────┘
-```
+We grow through a continuous loop:
 
-<details open>
-<summary><b>1. 100% Offline (Zero-Network Architecture)</b></summary>
-<br/>
-Our mobile applications intentionally strip the <code>INTERNET</code> permission. No tokens, analytics, crash logs, or secret seeds ever leave the physical boundary of your handset.
-</details>
+1. **Learn** — stay curious and keep up with how AI and software evolve.
+2. **Research** — dig into new ideas, models, and techniques before we build.
+3. **Experiment** — prototype fast, test in the real world, and learn from what breaks.
+4. **Build & Iterate** — turn what works into products, then keep improving them.
+5. **Share** — give back to the community through open source, write-ups, and lessons learned.
+6. **Listen** — welcome feedback, issues, and ideas from users and the community, and let them shape what comes next.
 
-<details open>
-<summary><b>2. Hardware-Backed Cryptographic Vault</b></summary>
-<br/>
-Data in rest is encrypted using <b>AES-256-GCM</b>. The Master Vault Key (MVK) is generated via <b>PBKDF2 with 100,000 computation rounds</b> and stored directly inside the hardware-backed keystore (Android Keystore / iOS Secure Enclave).
-</details>
+Every cycle feeds the next. We build in the open and listen closely, because the community makes us better.
 
-<details open>
-<summary><b>3. Zero Cognitive Noise & Human Touch</b></summary>
-<br/>
-Zero intrusive pop-ups, zero paywalls for core safety, and zero guilt triggers. To bring warmth to cryptographic routines, our apps feature joyful, responsive companion mascots like <b>Bé Khóa (Lock-bot)</b>, <b>Cipher Cat</b>, and <b>Byte Dog</b>.
-</details>
+💬 Have feedback or ideas? Open an [issue](https://github.com/kd-labs-io/.github/issues) or start a [discussion](https://github.com/kd-labs-io/.github/discussions) — we read every one.
 
-<details open>
-<summary><b>4. Transparent & Open Source</b></summary>
-<br/>
-Trust cannot be demanded; it must be proven. Our core engines and applications are released under permissive open-source licenses (MIT) so the global cybersecurity community can inspect every line of code.
-</details>
+### Our Evolution
+
+KD Labs began as an indie software studio. Today it operates as an AI-native lab — the same commitment to craft and calm, focused design, now applied to a broader set of AI-powered products.
 
 ---
 
-## 🚀 Flagship Project: Simple OTP
-
-> **The next-generation, offline 2FA authenticator designed for uncompromising privacy and seamless daily flow.**
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Package-com.duybk.simpleotp-ea580c?style=flat-square&logo=android" alt="Package ID"/>
-  <img src="https://img.shields.io/badge/Standards-RFC_6238_TOTP_|_RFC_4226_HOTP-blue?style=flat-square" alt="Standards"/>
-  <img src="https://img.shields.io/badge/Encryption-AES--256--GCM-darkgreen?style=flat-square" alt="AES-256"/>
-  <img src="https://img.shields.io/badge/Network_Permission-None_(0_Byte)-red?style=flat-square" alt="Zero Network"/>
-</div>
-
-<br/>
-
-### ✨ Highlights
-- **100% Zero-Network Security**: Complete immunity against remote exploits and server breaches.
-- **Universal Multi-Algorithm Support**: Standard RFC 6238 (TOTP) and RFC 4226 (HOTP) supporting SHA-1, SHA-256, and SHA-512 algorithms.
-- **Multi-Channel Ingestion**: Instant capture via live camera QR scanner, gallery photo decode, automatic clipboard URI recognition, or manual secret key entry.
-- **Offline Encrypted Backups**: Export and import encrypted JSON backups protected with custom master passwords.
-- **Biometric Enclave Integration**: Quick biometric unlock (Fingerprint / Face ID) verified directly by system hardware.
-- **Companion Mascot System**: Interactive *Bé Khóa* reacts to code copy actions and countdown refreshes.
-
-🔗 **Explore Simple OTP**:
-- **Source Code**: [github.com/001123/simple-otp](https://github.com/001123/simple-otp)
-- **App Details & Roadmap**: [kd.io.vn/apps/simple-otp](https://kd.io.vn/en/apps/simple-otp)
-- **Google Play Store**: [KD Labs on Google Play](https://play.google.com/store/apps/dev?id=7744040993303027729)
-
----
-
-## 🧪 Active Lab & Incubation Projects
-
-| Project | Category | Status | Highlights |
-|:---|:---|:---|:---|
-| **Simple OTP** | Security & 2FA | `Upcoming v0.0.1` | Zero-network authenticator, AES-256 hardware vault, companion mascot |
-| **Kanso Focus** | Productivity & Zen | `In Lab (v1.0.0-lab)` | Minimalist Pomodoro timer with ambient nature soundscapes, 100% offline |
-| **Open Lab Slot** | Utility & Privacy | `Incubating` | Pre-configured reserved project slot for upcoming privacy-first utilities |
-
----
-
-## 🛡️ Security & Cryptographic Standards
-
-KD Labs projects adhere strictly to modern cryptographic and software reliability practices:
+## 📁 Repository Structure
 
 ```
-[User Input / QR Secret]
-            │
-            ▼
-[PBKDF2-HMAC-SHA256 (100,000 Rounds)] ──> [Master Vault Key (MVK)]
-                                                  │
-                                                  ▼
-                                      [Hardware Keystore / Enclave]
-                                                  │
-                                                  ▼
-                                      [AES-256-GCM Authenticated Storage]
-```
-
-- **Data Safety Standards**: Fully certified with Google Play Developer Data Safety commitments.
-- **No Third-Party Trackers**: No Google Analytics, Firebase Telemetry, Facebook SDK, or advertising networks.
-- **Least Privilege Principle**: Camera permission is utilized strictly during active QR viewfinder rendering; microphone and network permissions are explicitly omitted.
-
----
-
-## 🛠️ Technology Stack
-
-```
-Mobile Core       : Kotlin / Swift / Flutter / Android Jetpack
-Web & Showcase    : Astro / TypeScript / TailwindCSS / Cloudflare
-Cryptography      : Android Keystore / iOS Keychain / AES-256-GCM / PBKDF2
-Standards         : RFC 6238 (TOTP) / RFC 4226 (HOTP) / Base32
-Licensing         : MIT License
+.github/
+├── profile/
+│   └── README.md   # Official KD Labs Organization Profile viewable at github.com/kd-labs-io
+├── .gitignore      # Cross-platform git ignore rules (macOS, Windows, Linux)
+└── README.md       # Repository documentation & directory guide (this file)
 ```
 
 ---
 
-## 📬 Connect With Us
+Founded by **Bui Khuong Duy** • Crafted with calm focus and care by **KD Labs** • Keep Development
+Visit our home at [kd.io.vn](https://kd.io.vn/)
 
-We welcome security auditors, open-source contributors, indie hackers, and users who cherish digital minimalism.
-
-- 🌐 **Official Website**: [https://kd.io.vn/](https://kd.io.vn/) (EN / VI)
-- 🛒 **Google Play Developer**: [Developer ID 7744040993303027729](https://play.google.com/store/apps/dev?id=7744040993303027729)
-- 📧 **Official Support**: [support@kd.io.vn](mailto:support@kd.io.vn)
-- 📰 **Press & Media Kit**: [kd.io.vn/press](https://kd.io.vn/en/press)
-- 🔒 **Privacy Policy**: [kd.io.vn/privacy](https://kd.io.vn/en/privacy)
-
----
-
-<div align="center">
-
-<sub>Crafted with calm focus and care by <b>KD Labs</b> • Keep Development</sub>  
-<sub>© 2026 KD Labs. All rights reserved. Google Play and the Google Play logo are trademarks of Google LLC.</sub>
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/buikhuongduy/" title="Bui Khuong Duy on LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="Bui Khuong Duy on LinkedIn"></a>
+  <a href="https://x.com/khuongduy1897" title="Bui Khuong Duy on X"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="Bui Khuong Duy on X"></a>
+</p>
